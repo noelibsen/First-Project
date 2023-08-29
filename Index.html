@@ -1,43 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--Head Start-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Racketguide</title>
-    <link rel="stylesheet" href="Styles/index.css">
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/style.css">
 </head>
+<!--Head End-->
+
+<!--Body Start-->
 <body>
-    <h1>Awesome Tennis Rackets</h1>
-    <div title="Babolat Pure Aero Rafa 290g - 2023">
-        <h3>Babolat Pure Aero Rafa 290g - 2023</h3>
-        <img src="Images/rafaorigin290g.png.webp" alt="Babolat Pure Aero Rafa 290g - 2023">
-        <h4>Product description</h4>
-        <p style="width: 400px;">This is a <em>high performance</em> tennis racquet specially designed 
-            to improve the performance of players looking for power and 
-            spin. This racket is part of Babolat's Pure Aero series, designed
-             for aggressive players who prefer to play from the baseline. 
-             What stands out about this model is more <strong>top-heavy</strong> which means
-              you get enormous power and spin when you hit the ball.</p>
-    </div>
-<hr>
-    <div title="Head Gravity MP 295g - 2023">
-        <h3>Head Gravity MP 295g - 2023</h3>
-        <img src="Images/skarmbild2023-04-13104642.png.webp" alt="Head Gravity MP 295g - 2023">
-        <h4>Product description</h4>
-        <p style="width: 400px;">distinctive, rounded head shape and <strong>large sweet</strong> spot,
-             the racket provides a good mix between comfort control and forgiveness in feel.</p>
-    </div>
-<hr>
-<div title="WILSON Pro Staff X V14 -2023">
-    <h3>WILSON Pro Staff X V14 -202</h3>
-    <img src="Images/prostaffx.png.webp" alt="WILSON Pro Staff X V14 -2023">
-    <h4>Product Description</h4>
-    <p style="width: 400px;">If you're used to the feel and precision of Wilson's Pro Staff
-         tennis rackets, it's hard to play with anything else. With a refined, elegant bronze 
-         colored design, the Wilson Pro Staff X is a more playable racket for everyone and offers
-          <em>extra forgiveness</em> thanks to a larger head size. . We arrange the double braid at 45-degree
-           angles, making the frame more stable.</p>
-</div>
+    <Header>
+        <h1>Rackets Guide</h1>
+<!--Navigation Start-->
+        <nav>
+            <ul>
+                <li> <a href="#Tennis Racquets">Tennis racquets</a>
+                    <ol>
+                        <li><a href="#Babolat Pure Aero Rafa 290g - 2023">Babolat Pure Aero Rafa 290g - 2023</a></li>
+                        <li><a href="#Head Gravity MP 295g - 2023">Head Gravity MP 295g - 2023</a></li>
+                        <li><a href="#WILSON Pro Staff X V14 -2023">WILSON Pro Staff X V14 -2023</a></li>
+                    </ol>
+                </li>
+                <li> <a href="#Padel Racquets">Padel racquets</a>
+                    <ol>
+                        <li><a href="#Head Delta Pro - Arturo Coello">Head Delta Pro - Arturo Coello</a></li>
+                        <li><a href="#Nox Luxury Titanium Exclusive">Nox Luxury Titanium Exclusive</a></li>
+                        <li><a href="#Bullpadel Vertex 03">Bullpadel Vertex 03</a></li>
+                    </ol>
+                </li>
+            </ul>
+        </nav>
+<!--Navigation End-->
+    </Header>
+    <main>
+<!--Tennis racquets-->
+    <section id="Tennis Racquets">
+        <h2>Awesome Tennis Racquets</h2>
+        <div title="Babolat Pure Aero Rafa 290g - 2023" id="Babolat Pure Aero Rafa 290g - 2023">
+            <h3>Babolat Pure Aero Rafa 290g - 2023</h3>
+            <img src="Images/rafaorigin290g.png.webp" alt="Babolat Pure Aero Rafa 290g - 2023" title="Babolat Pure Aero Rafa 290g - 2023" class="racquet-images">
+            <h4>Product description</h4>
+            <p class="product-description">This is a <em>high performance</em> tennis racquet specially designed 
+                to improve the performance of players looking for power and 
+                spin. This racket is part of Babolat's Pure Aero series, <code>designed</code>
+                for aggressive players who prefer to play from the baseline. 
+                What stands out about this model is more <strong>top-heavy</strong> which means
+                you get enormous power and spin when you hit the ball.</p>
+        </div>
+    <hr>
+        <div title="Head Gravity MP 295g - 2023" id="Head Gravity MP 295g - 2023">
+            <h3>Head Gravity MP 295g - 2023</h3>
+            <img src="Images/skarmbild2023-04-13104642.png.webp" alt="Head Gravity MP 295g - 2023" title="Head Gravity MP 295g - 2023" class="racquet-images">
+            <h4>Product description</h4>
+            <p class="product-description">distinctive, rounded head shape and <strong>large sweet</strong> spot,
+                the racket provides a good mix between comfort control and forgiveness in feel.</p>
+        </div>
+    <hr>
+        <div title="WILSON Pro Staff X V14 -2023" id="WILSON Pro Staff X V14 -2023">
+            <h3>WILSON Pro Staff X V14 -202</h3>
+            <img src="Images/prostaffx.png.webp" alt="WILSON Pro Staff X V14 -2023" title="WILSON Pro Staff X V14 -2023" class="racquet-images">
+            <h4>Product Description</h4>
+            <p class="product-description">If you're used to the feel and precision of Wilson's Pro Staff
+            tennis rackets, it's hard to play with anything else. With a refined, elegant bronze 
+            colored design, the Wilson Pro Staff X is a more playable racket for everyone and offers
+            <em>extra forgiveness</em> thanks to a larger head size. . We arrange the double braid at 45-degree
+            angles, making the frame more stable.</p>
+            <small>This is the racquet that I personally use</small>
+        </div>
+    </section>
+<!--Padel Racquets-->
+    <section id="Padel Racquets">
+        <h2>Awesome Padel Racquets</h2>
+        <div title="Head Delta Pro - Arturo Coello" id="Head Delta Pro - Arturo Coello">
+            <h3>Head Delta Pro - Arturo Coello</h3>
+            <img src="Images/Head-Delta-Pro-Padel-Racket-PADELUSA1.webp" alt="Head Delta Pro - Arturo Coello" title="Head Delta Pro - Arturo Coello" class="racquet-images">
+            <h4>Product description</h4>
+            <p class="product-description">Head Delta Pro is the weapon of one of the most potent strikers in the world:
+                <b>Arturo Coello</b>. As you may imagine, this diamond-shaped pala doesn't lack power.
+                So if your game is mainly based on offense, this is a model you should like.
+                And if you also appreciate benefiting from good comfort, then you should feel
+                <u>extremely pleased</u> with the soft foam that compounds its inner core! 
+                <del>An all around racquet without anything special to offer</del></p>        
+        </div>
+    <hr>
+        <div title="Nox Luxury Titanium Exclusive" id="Nox Luxury Titanium Exclusive">
+            <h3>Nox Luxury Titanium Exclusive</h3>
+            <img src="Images/nox-luxury-titanium-padel-racket-PADELUSA1.webp" alt="Nox Luxury Titanium Exclusive" title="Nox Luxury Titanium Exclusive" class="racquet-images">
+            <h4>Product description</h4>
+            <p class="product-description">You are an <s>intermediate or</s> advanced player looking 
+                for a versatile pala that offers excellent value for money ? 
+                Then the new Nox Luxury Titanium Exclusive is an option you should consider !</p>
+        </div>
+    <hr>
+        <div title="Bullpadel Vertex 03" id="Bullpadel Vertex 03">
+            <h3>Bullpadel Vertex 03</h3>
+            <img src="Images/Bullpadel-Vertex-03-2023-Padel-Racket-PADELUSA1.webp" alt="Bullpadel Vertex 03" title="Bullpadel Vertex 03" class="racquet-images">
+            <h4>Product description</h4>
+            <p class="product-description">The new Vertex 03 2023 is one of the most versatile offensive
+                 rackets on the market. Used by Argentinian players Federico
+                  Chingotto and Juan Tello, it features all the new exclusive <span style="color: green;">Bullpadel technologies</span>. Thanks to this, it will allow you to benefit from great power
+                   and precision while the <sub>rough surface</sub><sup>will help you maximize spins</sup>.</p>
+            <ins>Right now there are lots of deals on this racquet</ins>
+        </div>
+    </section>
+
+</main>
 
 </body>
+<!--Body End-->
 </html>
